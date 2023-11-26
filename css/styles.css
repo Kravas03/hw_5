@@ -1,0 +1,15 @@
+@import url('reset.css');
+.contaiter {
+    width: 1200px;
+    text-align: center;
+    font-size: 0;
+}
+.contaiter div {
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+}
+
+
