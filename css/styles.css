@@ -1,15 +1,53 @@
 @import url('reset.css');
+*{
+    box-sizing: border-box;
+}
 .contaiter {
     width: 1200px;
-    text-align: center;
+    height: 1200px;
     font-size: 0;
 }
-.contaiter div {
+
+.first-row div {
     font-size: 20px;
     width: 400px;
     height: 400px;
     background-color: red;
     display: inline-block;
+    border: 1px solid #000;
 }
 
 
+
+/** FIRST PART DONE  */
+
+
+
+
+.column-first{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.second-column{
+    display: inline-block;
+}
+
+.column-first div{
+    font-size: 20px;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(17, 156, 30);
+    border: 1px solid #000;
+}
+
+.second-column div {
+    font-size: 20px;
+    width: 400px;
+    height: 133.3px;
+    background-color: rgb(17, 156, 30);
+    border: 1px solid #000;
+}
+
+
+/** SECOND PART DONE */
