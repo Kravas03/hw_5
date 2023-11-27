@@ -51,3 +51,48 @@
 
 
 /** SECOND PART DONE */
+
+.first-box{
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(232, 130, 6);
+    display: inline-block;
+    border: 1px solid #000;
+    vertical-align: top;
+}
+.double-div{
+    display: inline-block;
+    font-size: 20px;
+}
+.big-div{
+    font-size: 20px;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(232, 130, 6);
+    border: 1px solid #000;
+}
+.triple-div{
+    font-size: 0;
+}
+.long-div{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(232, 130, 6);
+    border: 1px solid #000;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.short-divs {
+    display: inline-block;
+    font-size: 20px;
+}
+.short-divs > div {
+    height: 100px;
+    width: 400px;
+    background-color: rgb(232, 130, 6);
+    border: 1px solid #000;
+}
+
